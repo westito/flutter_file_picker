@@ -165,6 +165,7 @@ final class MacOSFilePickerHandler {
         dialog.allowsMultipleSelection = false
         dialog.canChooseDirectories = true
         dialog.canChooseFiles = false
+        dialog.canCreateDirectories = true
 
         guard let appWindow = getFlutterWindow() else {
             result(nil)
